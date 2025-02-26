@@ -319,6 +319,18 @@ section {
     font-size: 1.6rem;
     padding-top: 0.5rem;
 }
+/* Experience Section */
+.experience-title {
+    font-size: 3rem; /* Increase as needed */
+    font-weight: bold;
+    text-align: center;
+    color: var(--main-color); /* Optional: Highlight title */
+}
+
+.experience-content {
+    font-size: 2rem; /* Adjust as needed */
+    line-height: 1.8;
+}
 
 /* Tech Stack Section */
 .tech-stack {
