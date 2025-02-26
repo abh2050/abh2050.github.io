@@ -678,3 +678,16 @@ section {
         grid-template-columns: 1fr;
     }
 }
+
+/* Experience Section Font Size Adjustments */
+#experience .content .year {
+    font-size: 1.7rem;
+}
+
+#experience .content h3 {
+    font-size: 2.6rem;
+}
+
+#experience .content li {
+    font-size: 1.8rem;
+}
