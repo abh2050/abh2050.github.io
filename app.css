@@ -515,13 +515,13 @@ section {
 }
 
 .publication-box h4 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     color: var(--text-color);
     margin-bottom: 1rem;
 }
 
 .publication-box p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: var(--text-color);
     opacity: 0.9;
     margin-bottom: 1.5rem;
