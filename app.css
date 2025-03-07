@@ -196,20 +196,36 @@ section {
     padding-bottom: 6rem;
 }
 
-.about-img {
+.about .about-img {
+    width: 50rem !important;
+    height: 50rem !important;
     position: relative;
-    width: 50rem;
-    height: 50rem;
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
 }
 
-.about-img img {
-    width: 90%;
+.about .about-img img {
+    width: 100% !important;  /* Ensure full container coverage */
+    height: auto !important;   /* maintains the aspect ratio */
     border-radius: 50%;
     border: 0.2rem solid var(--main-color);
+}
+
+/* Adjust for responsiveness */
+@media (max-width: 768px) {
+    .about .about-img {
+        width: 40rem !important;
+        height: 40rem !important;
+    }
+}
+
+@media (max-width: 654px) {
+    .about .about-img {
+        width: 30rem !important;
+        height: 30rem !important;
+    }
 }
 
 .about-img .circle-spin {
