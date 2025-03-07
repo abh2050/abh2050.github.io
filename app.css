@@ -196,43 +196,30 @@ section {
     padding-bottom: 6rem;
 }
 
+/* Correct About-img container */
 .about .about-img {
-    width: 100rem !important;
-    height: 100rem !important;
     position: relative;
+    width: 30rem;
+    height: 30rem;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
 }
 
+/* Ensure image fills container */
 .about .about-img img {
-    width: 100% !important;  /* Ensure full container coverage */
-    height: auto !important;   /* maintains the aspect ratio */
+    width: 90%;
+    height: auto;
     border-radius: 50%;
     border: 0.2rem solid var(--main-color);
 }
 
-/* Adjust for responsiveness */
-@media (max-width: 768px) {
-    .about .about-img {
-        width: 40rem !important;
-        height: 40rem !important;
-    }
-}
-
-@media (max-width: 654px) {
-    .about .about-img {
-        width: 30rem !important;
-        height: 30rem !important;
-    }
-}
-
+/* Spinner - This remains unchanged */
 .about-img .circle-spin {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(0);
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -241,6 +228,21 @@ section {
     border-left: 0.2rem solid var(--main-color);
     border-right: 0.2rem solid var(--main-color);
     animation: aboutSpinner 8s linear infinite;
+    transform: translate(-50%, -50%);
+}
+/* Responsive sizing */
+@media (max-width: 768px) {
+    .about .about-img {
+        width: 25rem;
+        height: 25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .about .about-img {
+        width: 20rem;
+        height: 20rem;
+    }
 }
 
 .about-content h3 {
