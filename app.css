@@ -197,8 +197,8 @@ section {
 }
 
 .about .about-img {
-    width: 50rem !important;
-    height: 50rem !important;
+    width: 100rem !important;
+    height: 100rem !important;
     position: relative;
     display: flex;
     justify-content: center;
